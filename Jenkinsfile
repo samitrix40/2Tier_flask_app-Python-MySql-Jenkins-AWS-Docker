@@ -5,7 +5,7 @@ pipeline {
         stage('Git Clone') {
             steps {
                 echo 'Cloning Repository'
-                git branch: 'main', url:'https://github.com/bHARATHaALETI018/2Tier_flask_app-Python-MySql-Jenkins-AWS-Docker.git'
+                git branch: 'main', url:'https://github.com/samitrix40/2Tier_flask_app-Python-MySql-Jenkins-AWS-Docker'
                 echo 'Repository Cloned Successfully'
             }
         }
